@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bebas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="Enter The Number"
+        android:textColor="#130E0E"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter The Number"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Enter The Number"
+        android:inputType="textPersonName" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="Bold">
+
+    <Button
+        android:id="@+id/Jmlh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="setjmlh"
+        android:text="+"
+        android:textSize="18sp"
+        />
+
+        <Button
+            android:id="@+id/kurang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/Jmlh"
+            android:onClick="setmins"
+            android:textAlignment="center"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/bagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textAlignment="center"
+            android:onClick="setbagi"
+            android:layout_margin="5dp"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/kali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-4dp"
+            android:layout_toLeftOf="@id/bagi"
+            android:onClick="setkali"
+            android:layout_margin="5dp"
+            android:text="x" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="reset"
+
+        android:text="CLEAR" />
+
+    <TextView
+        android:id="@+id/edit_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="BLOD"
+        android:text="HASIL"
+        android:textColor="#131010"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="0"
+        android:textColor="#090808"
+        android:textSize="18dp" />
+
+</LinearLayout>

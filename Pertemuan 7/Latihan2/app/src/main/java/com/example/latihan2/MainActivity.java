@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Texthasil(View view){
-
         texthasil.setText("Kalimat : "+textedit.getText());
     }
 }
