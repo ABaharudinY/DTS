@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Eksternal">
+    tools:context=".Eksternal"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/buat_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUAT FILE"
+        android:layout_margin="5dp"
+        android:onClick="setNewfile"/>
+    <Button
+        android:id="@+id/ubah_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UBAH FILE"
+        android:layout_margin="5dp"
+        android:onClick="setChangefile"/>
+    <Button
+        android:id="@+id/baca_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACA FILE"
+        android:onClick="setReadfile"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/hapus_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAPUS FILE"
+        android:onClick="setDeletfile"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/bacateks"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:height="210dp"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:gravity="top|left"
+        android:padding="5dp"
+        android:textColorHint="#000"
+        android:hint="HASIL BACA FILE"
+        android:inputType="textMultiLine"/>
+
+
+</LinearLayout>
