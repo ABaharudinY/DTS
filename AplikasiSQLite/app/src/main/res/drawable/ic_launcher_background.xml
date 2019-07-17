@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+    <component name="AndroidLayouts">
+        <shared>
+            <config />
+        </shared>
+    </component>
+    <component name="ChangeListManager">
+        <list
+            name="Default Changelist"
+            comment=""
+            default="true"
+            id="de29e255-32a5-4f30-a04d-d066644a668b" />
+        <option
+            name="EXCLUDED_CONVERTED_TO_IGNORED"
+            value="true" />
+        <option
+            name="SHOW_DIALOG"
+            value="false" />
+        <option
+            name="HIGHLIGHT_CONFLICTS"
+            value="true" />
+        <option
+            name="HIGHLIGHT_NON_ACTIVE_CHANGELIST"
+            value="false" />
+        <option
+            name="LAST_RESOLUTION"
+            value="IGNORE" />
+    </component>
+    <component name="ExternalProjectsData">
+        <projectState path="$PROJECT_DIR$">
+            <ProjectState />
+        </projectState>
+    </component>
+    <component name="ExternalProjectsManager">
+        <system id="GRADLE">
+            <state>
+                <projects_view />
+            </state>
+        </system>
+    </component>
+    <component name="FUSProjectUsageTrigger">
+        <session id="-2090736099">
+            <usages-collector id="statistics.lifecycle.project">
+                <counts>
+                    <entry
+                        key="project.closed"
+                        value="1" />
+                    <entry
+                        key="project.open.time.16"
+                        value="1" />
+                    <entry
+                        key="project.open.time.22"
+                        value="1" />
+                    <entry
+                        key="project.opened"
+                        value="2" />
+                </counts>
+            </usages-collector>
+            <usages-collector id="statistics.file.extensions.edit">
+                <counts>
+                    <entry
+                        key="java"
+                        value="767" />
+                    <entry
+                        key="xml"
+                        value="487" />
+                </counts>
+            </usages-collector>
+            <usages-collector id="statistics.file.types.edit">
+                <counts>
+                    <entry
+                        key="JAVA"
+                        value="767" />
+                    <entry
+                        key="XML"
+                        value="487" />
+                </counts>
+            </usages-collector>
+            <usages-collector id="statistics.file.extensions.open">
+                <counts>
+                    <entry
+                        key="java"
+                        value="3" />
+                    <entry
+                        key="xml"
+                        value="5" />
+                </counts>
+            </usages-collector>
+            <usages-collector id="statistics.file.types.open">
+                <counts>
+                    <entry
+                        key="JAVA"
+                        value="3" />
+                    <entry
+                        key="XML"
+                        value="5" />
+                </counts>
+            </usages-collector>
+        </session>
+    </component>
+    <component name="FileEditorManager">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file
+                current-in-tab="false"
+                pinned="false">
+                <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+                    <provider editor-type-id="android-designer2" />
+                    <provider
+                        editor-type-id="text-editor"
+                        selected="true">
+                        <state relative-caret-position="34">
+                            <caret
+                                column="12"
+                                line="2"
+                                selection-end-column="12"
+                                selection-end-line="2"
+                                selection-start-column="12"
+                                selection-start-line="2" />
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file
+                current-in-tab="false"
+                pinned="false">
+                <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
+                    <provider editor-type-id="android-designer2" />
+                    <provider
+                        editor-type-id="text-editor"
+                        selected="true" />
+                </entry>
+            </file>
+            <file
+                current-in-tab="true"
+                pinned="false">
+                <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/latihan12activy1/activity_main2.java">
+                    <provider
+                        editor-type-id="text-editor"
+                        selected="true">
+                        <state relative-caret-position="68">
+                            <caret
+                                line="4"
+                                selection-end-line="4"
+                                selection-start-line="4" />
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file
+                current-in-tab="false"
+                pinned="false">
+                <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/latihan12activy1/MainActivity.java">
+                    <provider
+                        editor-type-id="text-editor"
+                        selected="true">
+                        <state relative-caret-position="510">
+                            <caret
+                                line="37"
+                                selection-end-line="37"
+                                selection-start-line="37" />
+                            <folding>
+                                <element
+                                    expanded="true"
+                                    signature="imports" />
+                            </folding>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file
+                current-in-tab="false"
+                pinned="false">
+                <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+                    <provider
+                        editor-type-id="text-editor"
+                        selected="true">
+                        <state relative-caret-position="306">
+                            <caret
+                                column="47"
+                                line="18"
+                                selection-end-column="47"
+                                selection-end-line="18"
+                                selection-start-column="47"
+                                selection-start-line="18" />
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+        </leaf>
+    </component>
+    <component name="FileTemplateManagerImpl">
+        <option name="RECENT_TEMPLATES">
+            <list>
+                <option value="valueResourceFile" />
+                <option value="layoutResourceFile" />
+                <option value="Class" />
+            </list>
+        </option>
+    </component>
+    <component name="GradleLocalSettings">
+        <option name="myGradleHom
